@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/guoxiaojiang/codes_download/UIS/Pokerview/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/guoxiaojiang/codes_download/UIS/Pokerview/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ede831e5cdc9d2133aa333b4f9d29070e1e61c27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/guoxiaojiang/.android/build-cache/c6d4e506a2ba3ecef7c40c8bb892b91d709f7642/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d20672631818754557255886d3feb43e7fe75a66">
+        <dex dex="/Users/guoxiaojiang/codes_download/UIS/Pokerview/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4150581dd9e6bf0171baeda22402db50f9934bcc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/guoxiaojiang/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0/constraint-layout-solver-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="90493f2ea15ff3f57416368123e5d4d180e0c6fd">
+        <dex dex="/Users/guoxiaojiang/codes_download/UIS/Pokerview/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0_a1bb751344de03f7ae6f04ba4873cb079431b3c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/guoxiaojiang/codes_download/UIS/Pokerview/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d87dd5f6be8e44860643126daa0d7109ff6b4abb">
+        <dex dex="/Users/guoxiaojiang/codes_download/UIS/Pokerview/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_dc66107ca47eff0cb669790528f2f461d4c62a4c/classes.dex" />
+    </item>
+
+</items>
