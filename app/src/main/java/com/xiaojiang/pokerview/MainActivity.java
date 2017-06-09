@@ -2,6 +2,7 @@ package com.xiaojiang.pokerview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -43,5 +44,15 @@ public class MainActivity extends AppCompatActivity {
         });
         mPokerView.scrollToPosition(3);
         mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public boolean dispatchKeyEvent(KeyEvent event) {
+        if (event.getKeyCode() == KeyEvent.KEYCODE_LEFT_BRACKET) {
+            mPokerView.toPrev();
+        } else if (event.getKeyCode() == KeyEvent.KEYCODE_RIGHT_BRACKET) {
+            mPokerView.toNext();
+        }
+        return super.dispatchKeyEvent(event);
     }
 }
