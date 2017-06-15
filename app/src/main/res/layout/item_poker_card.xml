@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="278dp"
     android:layout_height="394dp"
-    android:background="#393F4E"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tvPrecent"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:gravity="center"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
-        tools:text="1/10" />
+    <include
+        layout="@layout/item_poker_card_detail"/>
 
-    <ImageView
-        android:id="@+id/imgContent"
-        android:layout_width="180dp"
-        android:layout_height="260dp"
-        android:layout_marginTop="29dp"
-        android:layout_gravity="center_horizontal"/>
+    <include
+        layout="@layout/item_poker_card_front_cover"/>
 
-    <TextView
-        android:id="@+id/tvName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@android:color/white"
-        android:textSize="23sp"
-        tools:text="图片" />
-
-</LinearLayout>
+</FrameLayout>
